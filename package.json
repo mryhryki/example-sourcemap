@@ -2,11 +2,14 @@
   "name": "example-sourcemap",
   "private": true,
   "scripts": {
-    "build": "esbuild --bundle --minify --sourcemap --platform=node --target=node18 --outfile=./dist/index.js ./src/index.ts"
+    "build": "esbuild --bundle --minify --sourcemap --platform=node --target=node18 --outfile=./dist/index.js ./src/index.ts",
+    "parse": "esbuild --bundle --platform=node --target=node18  ./parse.ts | node"
   },
   "author": "mryhryki",
   "license": "MIT",
   "dependencies": {
-    "esbuild": "^0.17.18"
+    "@types/node": "^18.16.3",
+    "esbuild": "^0.17.18",
+    "vlq": "^2.0.4"
   }
 }
