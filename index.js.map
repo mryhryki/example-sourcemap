@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["index.ts"],
+  "sourcesContent": ["function main(): void {\n  console.log('START')\n  throw new Error('DUMMY')\n}\n\ntry {\n  main()\n} catch (err) {\n  console.error('ERROR:', err)\n}\n"],
+  "mappings": "AAAA,SAASA,GAAa,CACpB,cAAQ,IAAI,OAAO,EACb,IAAI,MAAM,OAAO,CACzB,CAEA,GAAI,CACFA,EAAK,CACP,OAASC,EAAP,CACA,QAAQ,MAAM,SAAUA,CAAG,CAC7B",
+  "names": ["main", "err"]
+}
