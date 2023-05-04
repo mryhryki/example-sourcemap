@@ -5,5 +5,8 @@
     "build": ":"
   },
   "author": "mryhryki",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.17.18"
+  }
 }
