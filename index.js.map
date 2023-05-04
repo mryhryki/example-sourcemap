@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["main.ts", "index.ts"],
-  "sourcesContent": ["export function main(): void {\n  console.log('START')\n  throw new Error('DUMMY')\n}\n\n", "import {main} from \"./main\";\n\ntry {\n  main()\n} catch (err) {\n  console.error('ERROR:', err)\n}\n"],
-  "mappings": "AAAO,SAASA,GAAa,CAC3B,cAAQ,IAAI,OAAO,EACb,IAAI,MAAM,OAAO,CACzB,CCDA,GAAI,CACFC,EAAK,CACP,OAASC,EAAP,CACA,QAAQ,MAAM,SAAUA,CAAG,CAC7B",
-  "names": ["main", "main", "err"]
-}

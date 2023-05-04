@@ -2,7 +2,7 @@
   "name": "example-sourcemap",
   "private": true,
   "scripts": {
-    "build": "esbuild --bundle --minify --sourcemap --platform=node --target=node18 --outfile=./index.js ./index.ts"
+    "build": "esbuild --bundle --minify --sourcemap --platform=node --target=node18 --outfile=./dist/index.js ./src/index.ts"
   },
   "author": "mryhryki",
   "license": "MIT",
