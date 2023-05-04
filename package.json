@@ -1,0 +1,9 @@
+{
+  "name": "example-sourcemap",
+  "private": true,
+  "scripts": {
+    "build": ":"
+  },
+  "author": "mryhryki",
+  "license": "MIT"
+}
