@@ -1,7 +1,4 @@
-function main(): void {
-  console.log('START')
-  throw new Error('DUMMY')
-}
+import {main} from "./main";
 
 try {
   main()
